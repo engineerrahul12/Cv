@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Anjali Kumari | B.Sc. Student | Professional CV</title>
+
+  <meta name="description"
+        content="Professional CV and profile of Anjali Kumari, a B.Sc. student majoring in Chemistry and Zoology, seeking opportunities in the pharmaceutical industry.">
+
+  <meta name="keywords"
+        content="Anjali Kumari, BSc Chemistry, BSc Zoology, pharmaceutical industry, pharmacy jobs Nepal, CV, Birgunj, Parsa">
+
+  <meta name="author" content="Anjali Kumari">
+
+  <style>
+    /* =========================
+       GLOBAL
+    ========================== */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f8fa;
+      color: #1b2935;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    /* =========================
+       NAVBAR
+    ========================== */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid #e4ecef;
+    }
+
+    .navbar {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 800;
+      color: #087f8c;
+    }
+
+    .logo span {
+      color: #163b52;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 600;
+      color: #435866;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #087f8c;
+    }
+
+    .menu-btn {
+      display: none;
+      border: none;
+      background: #087f8c;
+      color: white;
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+    /* =========================
+       HERO
+    ========================== */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 90px 0 75px;
+      background:
+        radial-gradient(circle at 90% 10%, rgba(8,127,140,0.12), transparent 30%),
+        radial-gradient(circle at 10% 90%, rgba(22,59,82,0.10), transparent 30%),
+        #ffffff;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 0.8fr;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #e8f7f8;
+      color: #087f8c;
+      border: 1px solid #cdebed;
+      padding: 8px 14px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.02;
+      letter-spacing: -3px;
+      color: #163b52;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #087f8c;
+    }
+
+    .hero-subtitle {
+      font-size: 21px;
+      font-weight: 600;
+      color: #536875;
+      margin-bottom: 18px;
+    }
+
+    .hero-description {
+      max-width: 680px;
+      color: #687b87;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 13px 20px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 14px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn-primary {
+      background: #087f8c;
+      color: white;
+      box-shadow: 0 8px 20px rgba(8,127,140,0.18);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      background: #066d78;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: #163b52;
+      border-color: #d5e2e7;
+    }
+
+    .btn-secondary:hover {
+      border-color: #087f8c;
+      color: #087f8c;
+    }
+
+    /* Profile Card */
+
+    .profile-card {
+      position: relative;
+      background: linear-gradient(145deg, #163b52, #087f8c);
+      padding: 35px;
+      border-radius: 28px;
+      color: white;
+      box-shadow: 0 25px 60px rgba(22,59,82,0.18);
+      text-align: center;
+    }
+
+    .profile-icon {
+      width: 115px;
+      height: 115px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.13);
+      border: 2px solid rgba(255,255,255,0.25);
+      font-size: 54px;
+    }
+
+    .profile-card h2 {
+      font-size: 24px;
+      margin-bottom: 7px;
+    }
+
+    .profile-card p {
+      opacity: 0.86;
+      font-size: 14px;
+    }
+
+    .profile-status {
+      margin-top: 22px;
+      padding: 11px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.10);
+      font-size: 13px;
+    }
+
+    /* =========================
+       SECTIONS
+    ========================== */
+
+    section {
+      padding: 80px 0;
+    }
+
+    .section-header {
+      margin-bottom: 38px;
+    }
+
+    .section-label {
+      color: #087f8c;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 38px;
+      line-height: 1.15;
+      color: #163b52;
+      margin-bottom: 10px;
+    }
+
+    .section-description {
+      max-width: 700px;
+      color: #6d7e88;
+    }
+
+    /* =========================
+       ABOUT
+    ========================== */
+
+    .about {
+      background: #f4f8fa;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e1ebef;
+      border-radius: 18px;
+      padding: 28px;
+      box-shadow: 0 8px 25px rgba(26,55,70,0.05);
+    }
+
+    .card h3 {
+      color: #163b52;
+      margin-bottom: 12px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #667983;
+      font-size: 15px;
+    }
+
+    /* =========================
+       EDUCATION
+    ========================== */
+
+    .education {
+      background: white;
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 19px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #d9e8eb;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 62px;
+      margin-bottom: 30px;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: 8px;
+      top: 5px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #087f8c;
+      border: 5px solid #dff4f5;
+    }
+
+    .education-card {
+      background: #f8fbfc;
+      border: 1px solid #e1ebef;
+      border-radius: 16px;
+      padding: 22px;
+      transition: 0.3s;
+    }
+
+    .education-card:hover {
+      transform: translateX(4px);
+      box-shadow: 0 10px 25px rgba(20,60,80,0.08);
+    }
+
+    .education-card h3 {
+      color: #163b52;
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+
+    .institution {
+      color: #087f8c;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .education-details {
+      color: #6b7d87;
+      font-size: 14px;
+    }
+
+    .gpa {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 5px 10px;
+      background: #e8f7f8;
+      color: #087f8c;
+      border-radius: 7px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    /* =========================
+       SKILLS
+    ========================== */
+
+    .skills {
+      background: #f4f8fa;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .skill-card {
+      background: white;
+      padding: 25px;
+      border-radius: 17px;
+      border: 1px solid #e0eaed;
+      transition: 0.3s;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 30px rgba(20,60,80,0.08);
+    }
+
+    .skill-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: #e8f7f8;
+      color: #087f8c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 23px;
+      margin-bottom: 15px;
+    }
+
+    .skill-card h3 {
+      color: #163b52;
+      margin-bottom: 7px;
+      font-size: 17px;
+    }
+
+    .skill-card p {
+      color: #71818a;
+      font-size: 14px;
+    }
+
+    /* =========================
+       STRENGTHS
+    ========================== */
+
+    .strengths {
+      background: white;
+    }
+
+    .strength-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .strength {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 16px;
+      background: #f7fafb;
+      border-radius: 12px;
+      border: 1px solid #e2ebee;
+    }
+
+    .check {
+      width: 30px;
+      height: 30px;
+      min-width: 30px;
+      border-radius: 50%;
+      background: #e5f6f7;
+      color: #087f8c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .strength span {
+      font-size: 14px;
+      font-weight: 600;
+      color: #425763;
+    }
+
+    /* =========================
+       LANGUAGES
+    ========================== */
+
+    .languages {
+      background: #f4f8fa;
+    }
+
+    .language-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .language {
+      background: white;
+      border: 1px solid #e0eaed;
+      border-radius: 16px;
+      padding: 22px;
+    }
+
+    .language h3 {
+      color: #163b52;
+      margin-bottom: 8px;
+    }
+
+    .language p {
+      color: #087f8c;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    /* =========================
+       CONTACT
+    ========================== */
+
+    .contact {
+      background: #163b52;
+      color: white;
+    }
+
+    .contact .section-label {
+      color: #72d6dc;
+    }
+
+    .contact .section-title {
+      color: white;
+    }
+
+    .contact .section-description {
+      color: #c5d5dc;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+      margin-top: 35px;
+    }
+
+    .contact-card {
+      padding: 25px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .contact-card h3 {
+      margin-bottom: 7px;
+      font-size: 16px;
+    }
+
+    .contact-card p {
+      color: #c8d8de;
+      font-size: 14px;
+      word-break: break-word;
+    }
+
+    .contact-card a {
+      color: #82e0e5;
+    }
+
+    /* =========================
+       FOOTER
+    ========================== */
+
+    footer {
+      background: #102c3d;
+      color: #aebfc8;
+      padding: 25px 0;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: white;
+    }
+
+    /* =========================
+       BACK TO TOP
+    ========================== */
+
+    .top-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 45px;
+      height: 45px;
+      border: none;
+      border-radius: 50%;
+      background: #087f8c;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      display: none;
+      z-index: 999;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .top-btn.show {
+      display: block;
+    }
+
+    /* =========================
+       PRINT
+    ========================== */
+
+    @media print {
+      header,
+      .hero-buttons,
+      .top-btn {
+        display: none !important;
+      }
+
+      body {
+        background: white;
+      }
+
+      section {
+        padding: 30px 0;
+      }
+    }
+
+    /* =========================
+       RESPONSIVE
+    ========================== */
+
+    @media (max-width: 850px) {
+
+      .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background: white;
+        padding: 20px 5%;
+        border-bottom: 1px solid #e2ebee;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-btn {
+        display: block;
+      }
+
+      .hero {
+        padding: 60px 0;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .hero h1 {
+        font-size: 52px;
+      }
+
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+
+      .navbar {
+        min-height: 64px;
+      }
+
+      .logo {
+        font-size: 19px;
+      }
+
+      .nav-links {
+        top: 64px;
+      }
+
+      section {
+        padding: 60px 0;
+      }
+
+      .hero {
+        padding: 55px 0;
+      }
+
+      .hero h1 {
+        font-size: 43px;
+        letter-spacing: -2px;
+      }
+
+      .hero-subtitle {
+        font-size: 18px;
+      }
+
+      .hero-description {
+        font-size: 15px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .profile-card {
+        padding: 28px 20px;
+      }
+
+      .section-title {
+        font-size: 31px;
+      }
+
+      .skills-grid,
+      .language-grid,
+      .strength-list {
+        grid-template-columns: 1fr;
+      }
+
+      .timeline-item {
+        padding-left: 48px;
+      }
+
+      .timeline::before {
+        left: 14px;
+      }
+
+      .timeline-dot {
+        left: 3px;
+      }
+
+      .card,
+      .education-card,
+      .skill-card {
+        padding: 21px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <header>
+    <div class="container navbar">
+
+      <a href="#home" class="logo">
+        Anjali <span>Kumari</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Profile</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="container hero-grid">
+
+        <div>
+
+          <div class="badge">
+            ✦ Open to Professional Opportunities
+          </div>
+
+          <h1>
+            Anjali<br>
+            <span>Kumari</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            B.Sc. Student • Chemistry & Zoology
+          </div>
+
+          <p class="hero-description">
+            Motivated and responsible student seeking an opportunity
+            in the pharmaceutical industry to apply academic knowledge,
+            communication skills, attention to detail, and a strong
+            willingness to learn.
+          </p>
+
+          <div class="hero-buttons">
+
+            <!-- Change PDF filename if needed -->
+            <a
+              href="Anjali_Kumari_Professional_Pharmacy_CV_Final.pdf"
+              class="btn btn-primary"
+              download
+            >
+              📄 Download CV
+            </a>
+
+            <a
+              href="mailto:anjalikumari9819226167@gmail.com"
+              class="btn btn-secondary"
+            >
+              ✉ Email Me
+            </a>
+
+            <a
+              href="tel:9827200428"
+              class="btn btn-secondary"
+            >
+              ☎ Call Me
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="profile-card">
+
+          <div class="profile-icon">
+            👩‍🔬
+          </div>
+
+          <h2>Anjali Kumari</h2>
+
+          <p>
+            B.Sc. 3rd Year Student
+          </p>
+
+          <div class="profile-status">
+            🧪 Chemistry & Zoology
+          </div>
+
+          <div class="profile-status">
+            📍 Parsa, Nepal
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROFILE
+    ========================== -->
+
+    <section class="about" id="about">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <div class="section-label">
+            Professional Profile
+          </div>
+
+          <h2 class="section-title">
+            About Me
+          </h2>
+
+          <p class="section-description">
+            A dedicated science student interested in building
+            professional experience and contributing to a disciplined
+            workplace.
+          </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <div class="card">
+
+            <h3>Career Objective</h3>
+
+            <p>
+              Motivated and responsible individual seeking an opportunity
+              in the pharmaceutical industry to apply academic knowledge,
+              communication skills, attention to detail, and a strong
+              willingness to learn. Eager to contribute to a professional
+              organization through teamwork, disciplined work practices,
+              accurate documentation, and continuous professional
+              development.
+            </p>
+
+          </div>
+
+
+          <div class="card">
+
+            <h3>Career Interest</h3>
+
+            <p>
+              Interested in opportunities related to the pharmaceutical
+              industry, documentation, pharmacy operations, inventory
+              support, professional learning, and science-related
+              workplace environments.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         EDUCATION
+    ========================== -->
+
+    <section class="education" id="education">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <div class="section-label">
+            Academic Background
+          </div>
+
+          <h2 class="section-title">
+            Education
+          </h2>
+
+          <p class="section-description">
+            Academic qualifications and current studies.
+          </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <!-- BSC -->
+
+          <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="education-card">
+
+              <h3>
+                Bachelor of Science (B.Sc.)
+              </h3>
+
+              <div class="institution">
+                Thakur Ram Multiple Campus, Birgunj
+              </div>
+
+              <div class="education-details">
+                3rd Year — Ongoing<br>
+                Major: Chemistry & Zoology
+              </div>
+
+              <span class="gpa">
+                CURRENTLY STUDYING
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- +2 -->
+
+          <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="education-card">
+
+              <h3>
+                +2 Science
+              </h3>
+
+              <div class="institution">
+                Hari Khetan Multiple Campus, Birgunj
+              </div>
+
+              <div class="education-details">
+                Science stream
+              </div>
+
+              <span class="gpa">
+                GPA: 3.01
+              </span>
+
+              <span class="gpa">
+                Municipality Scholarship
+              </span>
+
+            </div>
+
+          </div>
+
+
+         
